@@ -1,0 +1,107 @@
+TEXTURE grfx_vitals {
+  TYPE RGBA
+  FILE grfx_vitals.tga
+}
+
+//
+//------------------------------------------Vitals--Bkgd
+//
+BITMAP vitals_bkgd {
+  TEXTURE grfx_vitals
+  REGION(0,2,458,97)
+}
+//
+//------------------------------------------Vitals--ExpFill
+//
+BITMAP vitals_exp_fill {
+  TEXTURE grfx_vitals
+  REGION(0,151,81,81)
+}
+//
+//------------------------------------------Vitals--VOIP Indicator
+//
+BITMAP vitals_voip {
+  TEXTURE grfx_vitals
+  REGION(487,1,13,14)
+}
+//
+//------------------------------------------Vitals--Stat Fills
+//
+BITMAP vitals_health {
+  TEXTURE grfx_vitals
+  REGION(0,100,169,12)
+}
+BITMAP vitals_stamina {
+  TEXTURE grfx_vitals
+  REGION(0,113,169,12)
+}
+BITMAP vitals_gamma {
+  TEXTURE grfx_vitals
+  REGION(0,126,169,12)
+}
+BITMAP vitals_exp {
+  TEXTURE grfx_vitals
+  REGION(82,151,58,58)
+}
+//
+//------------------------------------------Vitals-circle button
+//
+BITMAP vitals_btn_up {
+   TEXTURE grfx_vitals
+   REGION(258,151,50,50)
+}
+BITMAP vitals_btn_hvr {
+   TEXTURE grfx_vitals
+   REGION(309,151,50,50)
+}
+BITMAP vitals_btn_dn {
+   TEXTURE grfx_vitals
+   REGION(359,151,50,50)
+}
+//
+//------------------------------------------Vitals-substatus
+//
+BITMAP vitals_substatus_1 {
+   TEXTURE grfx_vitals
+   REGION(441,2,14,14)
+}
+BITMAP vitals_substatus_2 {
+   TEXTURE grfx_vitals
+   REGION(455,2,14,14)
+}
+BITMAP vitals_substatus_3 {
+   TEXTURE grfx_vitals
+   REGION(469,2,14,14)
+}
+//
+
+//--------------------------------------Vitals Mail-Inactive
+//
+BITMAP vitals_mail_up {
+  TEXTURE grfx_vitals
+  REGION(411,151,17,14)
+}
+BITMAP vitals_mail_dn {
+  TEXTURE grfx_vitals
+  REGION(428,151,17,14)
+}
+BITMAP vitals_mail_hvr {
+  TEXTURE grfx_vitals
+  REGION(445,151,17,14)
+}
+//
+//--------------------------------------Vitals Mail-Active
+//
+BITMAP vitals_mailactive_up {
+  TEXTURE grfx_vitals
+  REGION(411,165,17,14)
+}
+BITMAP vitals_mailactive_dn {
+  TEXTURE grfx_vitals
+  REGION(428,165,17,14)
+}
+BITMAP vitals_mailactive_hvr {
+  TEXTURE grfx_vitals
+  REGION(445,165,17,14)
+}
+//

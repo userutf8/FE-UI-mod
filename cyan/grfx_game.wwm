@@ -1,0 +1,605 @@
+INCLUDE grfx_gui.wwm
+INCLUDE grfx_gmicons.wwm
+INCLUDE grfx_mail.wwm
+INCLUDE grfx_clan.wwm
+INCLUDE grfx_gear.wwm
+INCLUDE grfx_faction.wwm
+INCLUDE grfx_bloodsports.wwm
+INCLUDE grfx_vitals.wwm
+
+TEXTURE timer {
+  TYPE RGBA
+  FILE images\grfx_timer.tga
+}
+TEXTURE timer2 {
+  TYPE RGBA
+  FILE images\grfx_timer2.tga
+}
+TEXTURE grfx_radarmask {
+  TYPE RGBA
+  FILE grfx_radarmask.tga
+}
+
+TEXTURE grfx_game {
+  TYPE RGBA
+  FILE grfx_game.tga
+}
+
+//------------------------------------------Chat Window--Menu PopUp
+//
+BITMAP chat_options_up {
+  TEXTURE grfx_game
+  REGION(141,190,24,21)
+}
+BITMAP chat_options_dn { 
+  TEXTURE grfx_game
+  REGION(166,190,24,21)
+}
+BITMAP chat_options_hvr {
+  TEXTURE grfx_game
+  REGION(191,190,24,21)
+}
+//
+//------------------------------------------Target Window--Bkgd
+//
+BITMAP tgt_bkgd {
+  TEXTURE grfx_game
+  REGION(2,420,343,90)
+}
+//
+//------------------------------------------Target Window--Target Icons(I included a nmber of color variants if we want to try using them)
+// no selection
+BITMAP tgt_icon_black {
+  TEXTURE grfx_game
+  REGION(474,72,36,36)
+}
+// difficult target
+BITMAP tgt_icon_red {
+  TEXTURE grfx_game
+  REGION(474,109,36,36)
+}
+// equivalent target
+BITMAP tgt_icon_orange {
+  TEXTURE grfx_game
+  REGION(474,146,36,36)
+}
+// easy target
+BITMAP tgt_icon_yellow {
+  TEXTURE grfx_game
+  REGION(474,183,36,36)
+}
+// friendly target
+BITMAP tgt_icon_green {
+  TEXTURE grfx_game
+  REGION(474,220,36,36)
+}
+// salesman/questor target
+BITMAP tgt_icon_blue {
+  TEXTURE grfx_game
+  REGION(474,257,36,36)
+}
+//
+//------------------------------------------Target Window--Target Health Indicators
+//
+BITMAP tgt_health_bkgd {
+  TEXTURE levels
+  REGION(0,11,91,10)
+}
+BITMAP tgt_health_fill {
+  TEXTURE levels
+  REGION(0,0,91,10)
+}
+//
+//------------------------------------------Buff Displays
+//
+BITMAP buffs_bkgd {
+  TEXTURE grfx_game
+  REGION(363,134,42,62)
+}
+BITMAP buffs_frame {
+  TEXTURE grfx_game
+  REGION(407,102,55,55)
+}
+//
+//------------------------------------------Radar Window
+//
+BITMAP radar_bkgd {
+  TEXTURE grfx_game
+  REGION(0,234,231,208)
+}
+BITMAP radar_direction {
+  TEXTURE grfx_game
+  REGION(234,234,198,198)
+}
+BITMAP radar_sound_left {
+  TEXTURE grfx_game
+  REGION(432,234,40,146)
+}
+BITMAP radar_sound_right {
+  TEXTURE grfx_game
+  REGION(472,234,40,146)
+}
+BITMAP radar_mask {
+  TEXTURE grfx_radarmask
+  REGION(0,0,160,160)
+}
+//
+//------------------------------------------Radar Window--Strategic Map Buttons
+//
+BITMAP radar_map_up {
+  TEXTURE grfx_game
+  REGION(411,180,25,25)
+}
+BITMAP radar_map_hvr {
+  TEXTURE grfx_game
+  REGION(436,180,25,25)
+}
+BITMAP radar_map_dn {
+  TEXTURE grfx_game
+  REGION(461,180,25,25)
+}
+//
+//------------------------------------------Radar Window--System Menu Buttons
+//
+BITMAP radar_system_up {
+  TEXTURE grfx_game
+  REGION(265,301,38,38)
+}
+BITMAP radar_system_dn {
+  TEXTURE grfx_game
+  REGION(265,340,38,38)
+}
+BITMAP radar_system_hvr {
+  TEXTURE grfx_game
+  REGION(265,379,38,38)
+}
+//
+//------------------------------------------Radar Window--Zoom Buttons
+//
+BITMAP radar_zoomin_up {
+  TEXTURE grfx_game
+  REGION(0,479,22,22)
+}
+BITMAP radar_zoomin_dn {
+  TEXTURE grfx_game
+  REGION(22,479,22,22)
+}
+BITMAP radar_zoomin_hvr {
+  TEXTURE grfx_game
+  REGION(44,479,22,22)
+}
+BITMAP radar_zoomout_up {
+  TEXTURE grfx_game
+  REGION(68,479,22,22)
+}
+BITMAP radar_zoomout_dn {
+  TEXTURE grfx_game
+  REGION(90,479,22,22)
+}
+BITMAP radar_zoomout_hvr {
+  TEXTURE grfx_game
+  REGION(112,479,22,22)
+}
+//
+//------------------------------------------Radar Window--Radar Mode
+//
+BITMAP radar_modeoff_up {
+  TEXTURE grfx_game
+  REGION(0,450,27,27)
+}
+BITMAP radar_modeoff_dn {
+  TEXTURE grfx_game
+  REGION(27,450,27,27)
+}
+BITMAP radar_modeoff_hvr {
+  TEXTURE grfx_game
+  REGION(54,450,27,27)
+}
+BITMAP radar_mode_up {
+  TEXTURE grfx_game
+  REGION(83,450,27,27)
+}
+BITMAP radar_mode_dn {
+  TEXTURE grfx_game
+  REGION(110,450,27,27)
+}
+BITMAP radar_mode_hvr {
+  TEXTURE grfx_game
+  REGION(137,450,27,27)
+}
+//
+//------------------------------------------Radar Window--Icons
+//
+BITMAP radar_player {
+  TEXTURE grfx_game
+  REGION(143,214,12,15)
+}
+BITMAP radar_custom_waypoint {
+  TEXTURE grfx_game
+  REGION(274,1,10,10)
+}
+BITMAP radar_waypoint {
+  TEXTURE grfx_game
+  REGION(236,1,10,10)
+}
+BITMAP radar_waypoint_up {
+  TEXTURE grfx_game
+  REGION(236,12,17,10)
+}
+BITMAP radar_waypoint_down {
+  TEXTURE grfx_game
+  REGION(236,23,17,10)
+}
+BITMAP radar_im_waypoint {
+  TEXTURE grfx_game
+  REGION(256,1,10,10)
+}
+BITMAP radar_im_waypoint_up {
+  TEXTURE grfx_game
+  REGION(256,12,17,10)
+}
+BITMAP radar_im_waypoint_down {
+  TEXTURE grfx_game
+  REGION(256,23,17,10)
+}
+BITMAP radar_otherplyr {
+  TEXTURE grfx_game
+  REGION(258,206,9,6)
+}
+BITMAP radar_teamplyr {
+  TEXTURE grfx_game
+  REGION(270,206,9,6)
+}
+BITMAP map_teamplyr {
+  TEXTURE grfx_game
+  REGION(130,214,12,12)
+}
+BITMAP radar_plyr_same {
+  TEXTURE grfx_game
+  REGION(287,206,9,6)
+}
+BITMAP radar_plyr_friend {
+  TEXTURE grfx_game
+  REGION(299,206,9,6)
+}
+BITMAP radar_plyr_foe {
+  TEXTURE grfx_game
+  REGION(311,206,9,6)
+}
+BITMAP radar_plyr_enemy {
+  TEXTURE grfx_game
+  REGION(323,206,9,6)
+}
+BITMAP radar_plyr_chota {
+  TEXTURE grfx_game
+  REGION(290,464,12,15)
+}
+BITMAP radar_plyr_tech {
+  TEXTURE grfx_game
+  REGION(302,464,12,15)
+}
+BITMAP radar_plyr_traveler {
+  TEXTURE grfx_game
+  REGION(314,464,12,15)
+}
+BITMAP radar_plyr_enforcer {
+  TEXTURE grfx_game
+  REGION(326,464,12,15)
+}
+BITMAP radar_plyr_vista {
+  TEXTURE grfx_game
+  REGION(338,464,12,15)
+}
+BITMAP radar_plyr_lightbearer {
+  TEXTURE grfx_game
+  REGION(350,464,12,15)
+}
+BITMAP radar_node {
+  TEXTURE grfx_game
+  REGION(412,214,16,16)
+}
+BITMAP radar_miningnode {
+  TEXTURE grfx_game
+  REGION(330,214,15,15)
+}
+BITMAP radar_scavengenode {
+  TEXTURE grfx_game
+  REGION(283,214,15,15)
+}
+BITMAP radar_harvestnode {
+  TEXTURE grfx_game
+  REGION(299,214,12,15)
+}
+BITMAP radar_treasurenode {
+   TEXTURE grfx_game
+   REGION(480,151,15,16)
+}
+BITMAP radar_vehic_select {
+  TEXTURE grfx_game
+  REGION(429,214,18,18)
+}
+BITMAP radar_vehic_activated {
+  TEXTURE grfx_game
+  REGION(448,214,18,18)
+}
+BITMAP radar_vehic_parked {
+  TEXTURE grfx_game
+  REGION(467,214,18,18)
+}
+BITMAP radar_mount_select {
+  TEXTURE grfx_game
+  REGION(433,380,18,18)
+}
+BITMAP radar_mount_activated {
+  TEXTURE grfx_game
+  REGION(451,380,18,18)
+}
+BITMAP radar_mount_parked {
+  TEXTURE grfx_game
+  REGION(470,380,18,18)
+}
+BITMAP radar_mount_garage {
+  TEXTURE grfx_game
+  REGION(346,214,14,19)
+}
+BITMAP radar_mission {
+  TEXTURE grfx_game
+  REGION(462,151,16,16)
+}
+BITMAP radar_vault {
+  TEXTURE grfx_game
+  REGION(361,214,16,18)
+}
+BITMAP radar_mail {
+  TEXTURE grfx_game
+  REGION(378,214,16,16)
+}
+BITMAP radar_merchant {
+  TEXTURE grfx_game
+  REGION(395,214,16,16)
+}
+BITMAP radar_trainer {
+  TEXTURE grfx_game
+  REGION(494,381,16,16)
+}
+BITMAP radar_auction {
+  TEXTURE grfx_game
+  REGION(312,214,17,17)
+}
+BITMAP radar_pet {
+  TEXTURE grfx_game
+  REGION(485,214,18,18)
+}
+BITMAP radar_enemy_co {
+  TEXTURE grfx_game
+  REGION(492,177,16,16)
+}
+BITMAP radar_friendly_co {
+  TEXTURE grfx_game
+  REGION(492,196,16,16)
+}
+//
+//------------------------------------------Radar Auction
+//
+BITMAP radar_guild {
+  TEXTURE grfx_game
+  REGION(266,214,16,16)
+}
+BITMAP radar_mount_stable {
+  TEXTURE grfx_game
+  REGION(248,214,17,17)
+}
+//
+//------------------------------------------Radar Marketplace
+//
+BITMAP radar_market_up {
+  TEXTURE grfx_game
+  REGION(172,441,35,35)
+}
+BITMAP radar_market_hvr {
+  TEXTURE grfx_game
+  REGION(209,441,35,35)
+}
+BITMAP radar_market_dn {
+  TEXTURE grfx_game
+  REGION(248,441,35,35)
+}
+//
+//------------------------------------------Mount Vitals--Bkgd
+//
+BITMAP mountvitals_bkgd {
+  TEXTURE grfx_game
+  REGION(0,0,176,97)
+}
+//
+//------------------------------------------Mount Vitals--Stat Fills
+//
+BITMAP mountvitals_stamina {
+  TEXTURE grfx_game
+  REGION(289,0,148,15)
+}
+BITMAP mountvitals_health {
+  TEXTURE grfx_game
+  REGION(289,15,148,15)
+}   
+//
+//------------------------------------------Vehicle--Buttons
+//
+BITMAP vehic_refuel_up {
+  TEXTURE grfx_game       
+  REGION(0,98,35,33)
+}
+BITMAP vehic_refuel_hvr {
+  TEXTURE grfx_game     
+  REGION(36,98,35,33)
+}
+BITMAP vehic_refuel_dn {
+  TEXTURE grfx_game
+  REGION(72,98,35,33)
+}
+BITMAP vehic_repair_up {
+  TEXTURE grfx_game
+  REGION(108,98,36,33)
+}
+BITMAP vehic_repair_hvr {
+  TEXTURE grfx_game
+  REGION(145,98,36,33)
+}
+BITMAP vehic_repair_dn {
+  TEXTURE grfx_game
+  REGION(182,98,36,33)
+}
+BITMAP vehic_steeringwheel_up {
+  TEXTURE grfx_game
+  REGION(207,0,27,33)
+}
+BITMAP vehic_steeringwheel_hvr {
+  TEXTURE grfx_game
+  REGION(179,34,27,33)
+}
+BITMAP vehic_steeringwheel_dn {
+  TEXTURE grfx_game
+  REGION(179,0,27,33) 
+}
+//
+//---------------------------------------------Mount--Buttons
+//
+BITMAP mount_refuel_up {
+  TEXTURE grfx_game       
+  REGION(463,413,35,33)
+}
+BITMAP mount_refuel_hvr {
+  TEXTURE grfx_game       
+  REGION(463,446,35,33)
+}
+BITMAP mount_refuel_dn {
+  TEXTURE grfx_game       
+  REGION(463,479,35,33)
+}
+BITMAP mount_repair_up {
+  TEXTURE grfx_game       
+  REGION(136,479,36,33)
+}
+BITMAP mount_repair_hvr {
+  TEXTURE grfx_game       
+  REGION(173,479,36,33)
+}
+BITMAP mount_repair_dn {
+  TEXTURE grfx_game       
+  REGION(210,479,36,33)
+}
+//
+//---------------------------------------------Pet Mount--Buttons
+//
+BITMAP pet_follow_up {
+  TEXTURE grfx_game       
+  REGION(247,479,35,33)
+}
+BITMAP pet_follow_hvr {
+  TEXTURE grfx_game       
+  REGION(283,479,35,33)
+}
+BITMAP pet_follow_dn {
+  TEXTURE grfx_game       
+  REGION(319,479,35,33)
+}
+BITMAP pet_stay_up {
+  TEXTURE grfx_game       
+  REGION(355,479,35,33)
+}
+BITMAP pet_stay_hvr {
+  TEXTURE grfx_game       
+  REGION(391,479,35,33)
+}
+BITMAP pet_stay_dn {
+  TEXTURE grfx_game       
+  REGION(427,479,35,33)
+}
+//
+//---------------------------------------------Misc. Icons and Buttons
+//
+BITMAP expand_up {
+  TEXTURE grfx_game       
+  REGION(170,214,12,12)
+}
+BITMAP expand_dn {
+  TEXTURE grfx_game    
+  REGION(183,214,12,12)
+}
+BITMAP expand_hvr { 
+  TEXTURE grfx_game   
+  REGION(196,214,12,12)
+}
+BITMAP collapse_up {
+  TEXTURE grfx_game       
+  REGION(209,214,12,12)
+}
+BITMAP collapse_dn {
+  TEXTURE grfx_game    
+  REGION(222,214,12,12)
+}
+BITMAP collapse_hvr { 
+  TEXTURE grfx_game   
+  REGION(235,214,12,12)
+}
+BITMAP filter_up {
+  TEXTURE grfx_game       
+  REGION(82,214,16,16)
+}
+BITMAP filter_dn {
+  TEXTURE grfx_game    
+  REGION(98,214,16,16)
+}
+BITMAP filter_hvr { 
+  TEXTURE grfx_game   
+  REGION(114,214,16,16)
+}
+BITMAP arrowleft_up {
+  TEXTURE grfx_game       
+  REGION(97,133,16,16)
+}
+BITMAP arrowleft_dn {
+  TEXTURE grfx_game    
+  REGION(113,133,16,16)
+}
+BITMAP arrowleft_hvr { 
+  TEXTURE grfx_game   
+  REGION(129,133,16,16)
+}
+BITMAP arrowright_up {
+  TEXTURE grfx_game       
+  REGION(145,133,16,16)
+}
+BITMAP arrowright_dn {
+  TEXTURE grfx_game    
+  REGION(161,133,16,16)
+}
+BITMAP arrowright_hvr { 
+  TEXTURE grfx_game   
+  REGION(177,133,16,16)
+}
+BITMAP arrowdown_up {
+  TEXTURE grfx_game       
+  REGION(0,133,15,15)
+}
+BITMAP arrowdown_dn {
+  TEXTURE grfx_game    
+  REGION(16,133,15,15)
+}
+BITMAP arrowdown_hvr { 
+  TEXTURE grfx_game   
+  REGION(32,133,15,15)
+}
+BITMAP arrowup_up {
+  TEXTURE grfx_game       
+  REGION(48,133,15,15)
+}
+BITMAP arrowup_dn {
+  TEXTURE grfx_game    
+  REGION(64,133,15,15)
+}
+BITMAP arrowup_hvr { 
+  TEXTURE grfx_game   
+  REGION(80,133,15,15)
+}
+//

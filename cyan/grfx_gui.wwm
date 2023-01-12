@@ -1,0 +1,1550 @@
+ TEXTURE defaulttheme {
+  TYPE RGBA
+  FILE grfx_gui.tga
+  WHITESPOT
+}
+
+// custom level bars size 61
+TEXTURE levels {
+  TYPE RGBA
+  FILE grfx_levels.tga
+}
+
+//
+//minimize thin_btn NEW
+//
+BITMAP thin_minup {
+TEXTURE defaulttheme
+REGION(284,173,15,10)
+}
+BITMAP thin_mindown {
+TEXTURE defaulttheme
+REGION(300,173,15,10)
+}
+BITMAP thin_minhvr {
+TEXTURE defaulttheme
+REGION(316,173,15,10)
+}
+BITMAP thin_closeup {
+TEXTURE defaulttheme
+REGION(332,173,15,10)
+}
+BITMAP thin_closedown {
+TEXTURE defaulttheme
+REGION(348,173,15,10)
+}
+BITMAP thin_closehvr {
+TEXTURE defaulttheme
+REGION(364,173,15,10)
+}
+
+//
+//minimize btn NEW
+//
+BITMAP minup {
+  TEXTURE defaulttheme
+//  REGION(347,28,12,12)
+//  REGION(231,250,15,15)
+  REGION(65,408,24,24)
+}
+BITMAP mindown {
+  TEXTURE defaulttheme
+//  REGION(360,28,12,12)
+//  REGION(231,266,15,15)
+  REGION(90,408,24,24)
+}
+BITMAP minhvr {
+  TEXTURE defaulttheme
+//  REGION(373,28,12,12)
+//  REGION(231,282,15,15)
+  REGION(115,408,24,24)
+}
+BITMAP closeup {
+  TEXTURE defaulttheme
+//  REGION(347,15,12,12)
+//  REGION(247,250,15,15)
+  REGION(65,383,24,24)
+}
+BITMAP closedown {
+  TEXTURE defaulttheme
+//  REGION(360,15,12,12)
+//  REGION(247,266,15,15)
+  REGION(90,383,24,24)
+}
+BITMAP closehvr {
+  TEXTURE defaulttheme
+//  REGION(373,15,12,12)
+//  REGION(247,282,15,15)
+  REGION(115,383,24,24)
+}
+
+//
+//window titlebar frame
+//
+BITMAP titlewin_topleft {
+  TEXTURE defaulttheme
+  REGION(73,439,35,57)
+}
+BITMAP titlewin_bottomright {
+  TEXTURE defaulttheme
+  REGION(168,305,23,51)
+}
+BITMAP titlewin_topright {
+  TEXTURE defaulttheme
+  REGION(69,297,75,49)
+}
+BITMAP titlewin_bottomleft {
+  TEXTURE defaulttheme
+  REGION(20,383,37,32)
+}
+BITMAP titlewin_top {
+  TEXTURE defaulttheme
+  REGION(38,297,28,28)
+}
+BITMAP titlewin_bottom {
+  TEXTURE defaulttheme
+  REGION(154,349,11,7)
+}
+BITMAP titlewin_left {
+  TEXTURE defaulttheme
+  REGION(20,343,7,38)
+}
+BITMAP titlewin_right {
+  TEXTURE defaulttheme
+  REGION(130,348,14,30)
+}
+//BITMAP titlewin_bg {
+//  TEXTURE defaulttheme
+//  REGION(298,38,2,2)
+//}
+
+//
+//window thin frame, no buttons
+//
+BITMAP windowtopleft {
+  TEXTURE defaulttheme
+  REGION(160,49,7,23)
+}
+BITMAP windowtopright {
+  TEXTURE defaulttheme
+  REGION(209,49,7,11)
+}
+BITMAP windowbottomleft {
+  TEXTURE defaulttheme
+  REGION(248,83,9,7)
+}
+BITMAP windowbottomright {
+  TEXTURE defaulttheme
+  REGION(260,83,7,7)
+}
+BITMAP windowtop {
+  TEXTURE defaulttheme
+  REGION(204,49,2,11)
+}
+BITMAP windowbottom {
+  TEXTURE defaulttheme
+  REGION(255,83,2,7)
+}
+BITMAP windowleft {
+  TEXTURE defaulttheme
+  REGION(160,73,7,2)
+}
+BITMAP windowright {
+  TEXTURE defaulttheme
+  REGION(209,61,7,2)
+}
+BITMAP windowbg {
+  TEXTURE defaulttheme
+  REGION(127,29,2,2)
+}
+//
+//window thin frame, control button area on upper right
+//
+BITMAP window2topleft {
+  TEXTURE defaulttheme
+  REGION(315,191,5,5)
+}
+BITMAP window2topright {
+  TEXTURE defaulttheme
+  REGION(314,149,65,23)
+}
+BITMAP window2bottomleft {
+  TEXTURE defaulttheme
+  REGION(315,214,5,4)
+}
+BITMAP window2bottomright {
+  TEXTURE defaulttheme
+  REGION(374,214,5,4) 
+}
+BITMAP window2top {
+  TEXTURE defaulttheme
+  REGION(322,191,4,5)
+}
+BITMAP window2bottom {
+  TEXTURE defaulttheme
+  REGION(322,214,4,4)
+}
+BITMAP window2left {
+  TEXTURE defaulttheme
+  REGION(315,210,5,2)
+}
+BITMAP window2right {
+  TEXTURE defaulttheme
+  REGION(374,210,5,2)
+}
+BITMAP window2bg {
+  TEXTURE defaulttheme
+  REGION(322,210,2,2)
+}
+//
+//window title bar and control button area on upper right
+//
+//window 3
+//
+BITMAP window3topleft {
+  TEXTURE defaulttheme
+  REGION(4,295,31,46)
+}
+BITMAP window3bottomright {
+  TEXTURE defaulttheme
+  REGION(168,305,30,69)
+}
+BITMAP window3topright {
+  TEXTURE defaulttheme
+  REGION(69,299,82,47)
+}
+BITMAP window3bottomleft {
+  TEXTURE defaulttheme
+  REGION(4,383,231,50)
+}
+BITMAP window3top {
+  TEXTURE defaulttheme
+  REGION(38,299,28,26)
+}
+BITMAP window3bottom {
+  TEXTURE defaulttheme
+  REGION(154,349,11,25)
+}
+BITMAP window3left {
+  TEXTURE defaulttheme
+  REGION(4,343,23,38)
+}
+BITMAP window3right {
+  TEXTURE defaulttheme
+  REGION(130,348,21,30)
+}
+BITMAP window3bg {
+  TEXTURE defaulttheme
+  REGION(298,38,2,2)
+}
+//
+//window 4
+//
+BITMAP window4topleft {
+  TEXTURE defaulttheme
+  REGION(4,437,50,65)
+}
+BITMAP window4bottomright {
+  TEXTURE defaulttheme
+  REGION(201,305,77,69)
+}
+BITMAP window4topright {
+  TEXTURE defaulttheme
+  REGION(69,298,82,48)
+}
+BITMAP window4bottomleft {
+  TEXTURE defaulttheme
+  REGION(4,383,231,50)
+}
+BITMAP window4top {
+  TEXTURE defaulttheme
+  REGION(38,298,28,26)
+}
+BITMAP window4bottom {
+  TEXTURE defaulttheme
+  REGION(154,349,11,25)
+}
+BITMAP window4left {
+  TEXTURE defaulttheme
+  REGION(4,343,23,38)
+}
+BITMAP window4right {
+  TEXTURE defaulttheme
+  REGION(130,348,21,30)
+}
+BITMAP window4bg {
+  TEXTURE defaulttheme
+  REGION(298,38,2,2)
+}
+//window 5
+//
+BITMAP window5topleft {
+  TEXTURE defaulttheme
+  REGION(61,437,57,59)
+}
+BITMAP window5bottomright {
+  TEXTURE defaulttheme
+  REGION(168,305,26,65)
+}
+BITMAP window5topright {
+  TEXTURE defaulttheme
+  REGION(69,295,78,51)
+}
+BITMAP window5bottomleft {
+  TEXTURE defaulttheme
+  REGION(8,383,227,46)
+}
+BITMAP window5top {
+  TEXTURE defaulttheme
+  REGION(38,295,25,30)
+}
+BITMAP window5bottom {
+  TEXTURE defaulttheme
+  REGION(154,349,11,21)
+}
+BITMAP window5left {
+  TEXTURE defaulttheme
+  REGION(8,343,18,38)
+}
+BITMAP window5right {
+  TEXTURE defaulttheme
+  REGION(130,348,17,30)
+}
+BITMAP window5bg {
+  TEXTURE defaulttheme
+  REGION(298,38,2,2)
+}
+//
+//window 6
+//
+BITMAP window6topleft {
+  TEXTURE defaulttheme
+  REGION(121,437,52,69)
+}
+BITMAP window6bottomright {
+  TEXTURE defaulttheme
+  REGION(201,305,77,69)
+}
+BITMAP window6topright {
+  TEXTURE defaulttheme
+  REGION(69,296,82,50)
+}
+BITMAP window6bottomleft {
+  TEXTURE defaulttheme
+  REGION(4,383,231,50)
+}
+BITMAP window6top {
+  TEXTURE defaulttheme
+  REGION(38,296,28,28)
+}
+BITMAP window6bottom {
+  TEXTURE defaulttheme
+  REGION(154,349,11,25)
+}
+BITMAP window6left {
+  TEXTURE defaulttheme
+  REGION(4,343,23,38)
+}
+BITMAP window6right {
+  TEXTURE defaulttheme
+  REGION(130,348,21,30)
+}
+BITMAP window6bg {
+  TEXTURE defaulttheme
+  REGION(298,38,2,2)
+}
+//
+//window7 thin frame, no buttons Resize Handle
+//
+BITMAP window7topleft {
+  TEXTURE defaulttheme
+  REGION(160,49,7,23)
+}
+BITMAP window7topright {
+  TEXTURE defaulttheme
+  REGION(209,49,7,11)
+}
+BITMAP window7bottomleft {
+  TEXTURE defaulttheme
+  REGION(248,83,9,7)
+}
+BITMAP window7bottomright {
+  TEXTURE defaulttheme
+  REGION(260,83,7,7)
+}
+BITMAP window7top {
+  TEXTURE defaulttheme
+  REGION(204,49,2,11)
+}
+BITMAP window7bottom {
+  TEXTURE defaulttheme
+  REGION(255,83,2,7)
+}
+BITMAP window7left {
+  TEXTURE defaulttheme
+  REGION(160,73,7,2)
+}
+BITMAP window7right {
+  TEXTURE defaulttheme
+  REGION(209,61,7,2)
+}
+BITMAP window7bg {
+  TEXTURE defaulttheme
+  REGION(127,29,2,2)
+}
+
+//
+// menu control (same as thin window now)
+//
+BITMAP menutopleft {
+  TEXTURE defaulttheme
+  REGION(160,49,7,23)
+}
+BITMAP menutopright {
+  TEXTURE defaulttheme
+  REGION(209,49,7,11)
+}
+BITMAP menubottomleft {
+  TEXTURE defaulttheme
+  REGION(248,83,9,7)
+}
+BITMAP menubottomright {
+  TEXTURE defaulttheme
+  REGION(260,83,7,7)
+}
+BITMAP menutop {
+  TEXTURE defaulttheme
+  REGION(204,49,2,11)
+}
+BITMAP menubottom {
+  TEXTURE defaulttheme
+  REGION(255,83,2,7)
+}
+BITMAP menuleft {
+  TEXTURE defaulttheme
+  REGION(160,73,7,2)
+}
+BITMAP menuright {
+  TEXTURE defaulttheme
+  REGION(209,61,7,2)
+}
+//BITMAP menubg {
+//  TEXTURE defaulttheme
+//  REGION(127,29,2,2)
+//}
+//
+//
+//button bar
+//
+BITMAP bbartopleft {
+  TEXTURE defaulttheme
+//  REGION(2,15,25,6)
+  REGION(220,49,27,8)
+}
+BITMAP bbartopright {
+  TEXTURE defaulttheme
+//  REGION(32,15,41,6)
+  REGION(260,49,43,8)
+}
+BITMAP bbarbottomleft {
+  TEXTURE defaulttheme
+//  REGION(2,32,25,7)
+  REGION(220,68,27,9)
+}
+BITMAP bbarbottomright {
+  TEXTURE defaulttheme
+// REGION(32,32,41,7)
+  REGION(260,68,43,9)
+}
+BITMAP bbartop {
+  TEXTURE defaulttheme
+//  REGION(28,15,3,6)
+  REGION(248,49,11,8)
+}
+BITMAP bbarbottom {
+  TEXTURE defaulttheme
+//  REGION(28,32,3,7)
+  REGION(248,68,11,9)
+}
+BITMAP bbarleft {
+  TEXTURE defaulttheme
+//  REGION(2,22,25,9)
+  REGION(220,58,27,9)
+}
+BITMAP bbarright {
+  TEXTURE defaulttheme
+//  REGION(32,22,41,9)
+  REGION(260,58,43,9)
+}
+BITMAP bbarbg {
+  TEXTURE defaulttheme
+//  REGION(28,22,1,1)
+  REGION(248,58,1,1)
+}
+//
+//stat bars: statred = HP; statblack = no HP
+//
+BITMAP statgray {
+  TEXTURE levels
+  REGION(0,22,61,10)
+}
+BITMAP statred {
+  TEXTURE levels
+  REGION(0,0,61,10)
+}
+BITMAP statgreen {
+  TEXTURE levels
+  REGION(0,44,61,10)
+}
+BITMAP statblue {
+  TEXTURE levels
+  REGION(0,33,61,10)
+}
+BITMAP statyellow {
+  TEXTURE levels
+  REGION(0,55,61,10)
+}
+BITMAP statblack {
+  TEXTURE levels
+  REGION(0,11,61,10)
+}
+//
+//
+//button control
+//
+BITMAP btnuptopleft {
+  TEXTURE defaulttheme
+  REGION(140,36,3,3)
+}
+BITMAP btnuptopright {
+  TEXTURE defaulttheme
+  REGION(153,36,3,3)
+}
+BITMAP btnupbottomleft {
+  TEXTURE defaulttheme
+  REGION(140,49,3,3)
+}
+BITMAP btnupbottomright {
+  TEXTURE defaulttheme
+  REGION(153,49,3,3)
+}
+BITMAP btnuptop {
+  TEXTURE defaulttheme
+  REGION(144,36,1,2)
+}
+BITMAP btnupbottom {
+  TEXTURE defaulttheme
+  REGION(144,50,1,2)
+}
+BITMAP btnupleft {
+  TEXTURE defaulttheme
+  REGION(140,40,2,1)
+}
+BITMAP btnupright {
+  TEXTURE defaulttheme
+  REGION(154,40,2,1)
+}
+BITMAP btnupbg {
+  TEXTURE defaulttheme
+  REGION(157,36,1,16)
+  //REGION(144,40,1,1)
+}
+//
+//
+BITMAP btndntopleft {
+  TEXTURE defaulttheme
+  REGION(140,55,3,3)
+}
+BITMAP btndntopright {
+  TEXTURE defaulttheme
+  REGION(153,55,3,3)
+}
+BITMAP btndnbottomleft {
+  TEXTURE defaulttheme
+  REGION(140,68,3,3)
+}
+BITMAP btndnbottomright {
+  TEXTURE defaulttheme
+  REGION(153,68,3,3)
+}
+BITMAP btndntop {
+  TEXTURE defaulttheme
+  REGION(144,55,1,2)
+}
+BITMAP btndnbottom {
+  TEXTURE defaulttheme
+  REGION(144,69,1,2)
+}
+BITMAP btndnleft {
+  TEXTURE defaulttheme
+  REGION(140,59,2,1)
+}
+BITMAP btndnright {
+  TEXTURE defaulttheme
+  REGION(154,59,2,1)
+}
+BITMAP btndnbg {
+  TEXTURE defaulttheme
+  REGION(157,55,1,16)  
+  //REGION(144,59,1,1)
+}
+//
+//
+BITMAP btnovtopleft {
+  TEXTURE defaulttheme
+  REGION(140,74,3,3)
+}
+BITMAP btnovtopright {
+  TEXTURE defaulttheme
+  REGION(153,74,3,3)
+}
+BITMAP btnovbottomleft {
+  TEXTURE defaulttheme
+  REGION(140,87,3,3)
+}
+BITMAP btnovbottomright {
+  TEXTURE defaulttheme
+  REGION(153,87,3,3)
+}
+BITMAP btnovtop {
+  TEXTURE defaulttheme
+  REGION(144,74,1,2)
+}
+BITMAP btnovbottom {
+  TEXTURE defaulttheme
+  REGION(144,88,1,2)
+}
+BITMAP btnovleft {
+  TEXTURE defaulttheme
+  REGION(140,78,2,1)
+}
+BITMAP btnovright {
+  TEXTURE defaulttheme
+  REGION(154,78,2,1)
+}
+BITMAP btnovbg {
+  TEXTURE defaulttheme
+  REGION(157,74,1,16)
+  //REGION(144,78,1,1)
+}
+//
+//
+//view control
+//
+BITMAP viewctrltopleft {
+  TEXTURE defaulttheme
+  REGION(139,15,1,1)
+}
+BITMAP viewctrltopright {
+  TEXTURE defaulttheme
+  REGION(155,15,1,1)
+}
+BITMAP viewctrlbottomleft {
+  TEXTURE defaulttheme
+  REGION(139,31,1,1)
+}
+BITMAP viewctrlbottomright {
+  TEXTURE defaulttheme
+  REGION(155,31,1,1)
+}
+BITMAP viewctrltop {
+  TEXTURE defaulttheme
+  REGION(140,15,1,1)
+}
+BITMAP viewctrlbottom {
+  TEXTURE defaulttheme
+  REGION(140,31,1,1)
+}
+BITMAP viewctrlleft {
+  TEXTURE defaulttheme
+  REGION(139,16,1,1)
+}
+BITMAP viewctrlright {
+  TEXTURE defaulttheme
+  REGION(155,16,1,1)
+}
+//
+//not using view control bkgd...please make BGB 4,33,1 50% opacity
+//
+BITMAP viewctrlbg {
+  TEXTURE defaulttheme
+  REGION(0,0,1,1)
+}
+//
+//unused at present
+//
+BITMAP viewctrlborder {
+  TEXTURE defaulttheme
+  REGION(0,0,1,1)
+}
+//
+//tabs 
+//---------------------------------------tabs for outside window frames
+//------------------------tab up
+BITMAP wintab_uptopleft {
+  TEXTURE defaulttheme
+  REGION(134,97,2,8)
+}
+BITMAP wintab_uptop {
+  TEXTURE defaulttheme
+  REGION(137,97,2,2)
+}
+BITMAP wintab_uptopright {
+  TEXTURE defaulttheme
+  REGION(140,97,8,8)
+}
+BITMAP wintab_upleft {
+  TEXTURE defaulttheme
+  REGION(134,106,2,2)
+}
+BITMAP wintab_upright {
+  TEXTURE defaulttheme
+  REGION(140,106,8,2)
+}
+BITMAP wintab_upbottomleft {
+  TEXTURE defaulttheme
+  REGION(134,109,2,2)
+}
+BITMAP wintab_upbottom {
+  TEXTURE defaulttheme
+  REGION(137,109,2,2)
+}
+BITMAP wintab_upbottomright {
+  TEXTURE defaulttheme
+  REGION(140,109,8,2)
+}
+BITMAP wintab_upbg {
+  TEXTURE defaulttheme
+  REGION(179,97,1,12)
+}
+ 
+//------------------------tab down
+BITMAP wintab_dntopleft {
+  TEXTURE defaulttheme
+  REGION(149,97,2,8)
+}
+BITMAP wintab_dntop {
+  TEXTURE defaulttheme
+  REGION(152,97,2,2)
+}
+BITMAP wintab_dntopright {
+  TEXTURE defaulttheme
+  REGION(155,97,8,8)
+}
+BITMAP wintab_dnleft {
+  TEXTURE defaulttheme
+  REGION(149,106,2,2)
+}
+BITMAP wintab_dnright {
+  TEXTURE defaulttheme
+  REGION(155,106,8,2)
+}
+BITMAP wintab_dnbottomleft {
+  TEXTURE defaulttheme
+  REGION(149,109,2,2)
+}
+BITMAP wintab_dnbottom {
+  TEXTURE defaulttheme
+  REGION(152,109,2,2)
+}
+BITMAP wintab_dnbottomright {
+  TEXTURE defaulttheme
+  REGION(155,109,8,2)
+}
+BITMAP wintab_dnbg {
+  TEXTURE defaulttheme
+  REGION(181,97,1,12)
+}
+//--------------------------tab over
+BITMAP wintab_ovtopleft {
+  TEXTURE defaulttheme
+  REGION(164,97,2,8)
+}
+BITMAP wintab_ovtop {
+  TEXTURE defaulttheme
+  REGION(167,97,2,2)
+}
+BITMAP wintab_ovtopright {
+  TEXTURE defaulttheme
+  REGION(170,97,8,8)
+}
+BITMAP wintab_ovleft {
+  TEXTURE defaulttheme
+  REGION(164,106,2,2)
+}
+BITMAP wintab_ovright {
+  TEXTURE defaulttheme
+  REGION(170,106,8,2)
+}
+BITMAP wintab_ovbottomleft {
+  TEXTURE defaulttheme
+  REGION(164,109,2,2)
+}
+BITMAP wintab_ovbottom {
+  TEXTURE defaulttheme
+  REGION(167,109,2,2)
+}
+BITMAP wintab_ovbottomright {
+  TEXTURE defaulttheme
+  REGION(170,109,8,2)
+}
+BITMAP wintab_ovbg {
+  TEXTURE defaulttheme
+  REGION(183,97,1,12)
+}
+//
+//---------------------------------------tabs for inside window frames
+//------------------------tab up
+BITMAP tab_uptopleft {
+  TEXTURE defaulttheme
+  REGION(134,112,2,8)
+}
+BITMAP tab_uptop {
+  TEXTURE defaulttheme
+  REGION(137,112,2,3)
+}
+BITMAP tab_uptopright {
+  TEXTURE defaulttheme
+  REGION(140,112,8,8)
+}
+BITMAP tab_upleft {
+  TEXTURE defaulttheme
+  REGION(134,121,2,2)
+}
+BITMAP tab_upright {
+  TEXTURE defaulttheme
+  REGION(140,121,8,2)
+}
+BITMAP tab_upbottomleft {
+  TEXTURE defaulttheme
+  REGION(134,124,2,2)
+}
+BITMAP tab_upbottom {
+  TEXTURE defaulttheme
+  REGION(137,124,2,2)
+}
+BITMAP tab_upbottomright {
+  TEXTURE defaulttheme
+  REGION(140,124,8,2)
+}
+BITMAP tab_upbg {
+  TEXTURE defaulttheme
+  REGION(179,112,1,12)
+}
+ 
+//------------------------tab down
+BITMAP tab_dntopleft {
+  TEXTURE defaulttheme
+  REGION(149,112,2,8)
+}
+BITMAP tab_dntop {
+  TEXTURE defaulttheme
+  REGION(152,112,2,3)
+}
+BITMAP tab_dntopright {
+  TEXTURE defaulttheme
+  REGION(155,112,8,8)
+}
+BITMAP tab_dnleft {
+  TEXTURE defaulttheme
+  REGION(149,121,2,2)
+}
+BITMAP tab_dnright {
+  TEXTURE defaulttheme
+  REGION(155,121,8,2)
+}
+BITMAP tab_dnbottomleft {
+  TEXTURE defaulttheme
+  REGION(149,124,2,2)
+}
+BITMAP tab_dnbottom {
+  TEXTURE defaulttheme
+  REGION(152,124,2,2)
+}
+BITMAP tab_dnbottomright {
+  TEXTURE defaulttheme
+  REGION(155,124,8,2)
+}
+BITMAP tab_dnbg {
+  TEXTURE defaulttheme
+  REGION(181,112,1,12)
+}
+//--------------------------tab over
+BITMAP tab_ovtopleft {
+  TEXTURE defaulttheme
+  REGION(164,112,2,8)
+}
+BITMAP tab_ovtop {
+  TEXTURE defaulttheme
+  REGION(167,112,2,3)
+}
+BITMAP tab_ovtopright {
+  TEXTURE defaulttheme
+  REGION(170,112,8,8)
+}
+BITMAP tab_ovleft {
+  TEXTURE defaulttheme
+  REGION(164,121,2,2)
+}
+BITMAP tab_ovright {
+  TEXTURE defaulttheme
+  REGION(170,121,8,2)
+}
+BITMAP tab_ovbottomleft {
+  TEXTURE defaulttheme
+  REGION(164,124,2,2)
+}
+BITMAP tab_ovbottom {
+  TEXTURE defaulttheme
+  REGION(167,124,2,2)
+}
+BITMAP tab_ovbottomright {
+  TEXTURE defaulttheme
+  REGION(170,124,8,2)
+}
+BITMAP tab_ovbg {
+  TEXTURE defaulttheme
+  REGION(183,112,1,12)
+}
+//
+//------------------------------------Inside Window Thin button Outline
+//------------------------------------up state
+
+BITMAP btn2uptopleft {
+  TEXTURE defaulttheme
+  REGION(140,91,1,1)
+}
+BITMAP btn2upbottomright {
+  TEXTURE defaulttheme
+  REGION(142,93,1,1)
+}
+BITMAP btn2uptopright {
+  TEXTURE defaulttheme
+  REGION(142,91,1,1)
+}
+BITMAP btn2upbottomleft {
+  TEXTURE defaulttheme
+  REGION(140,93,1,1)
+}
+BITMAP btn2uptop {
+  TEXTURE defaulttheme
+  REGION(141,91,1,1)
+}
+BITMAP btn2upbottom {
+  TEXTURE defaulttheme
+  REGION(141,93,1,1)
+}
+BITMAP btn2upleft {
+  TEXTURE defaulttheme
+  REGION(140,92,1,1)
+}
+BITMAP btn2upright {
+  TEXTURE defaulttheme
+  REGION(142,92,1,1)
+}
+BITMAP btn2upbg {
+  TEXTURE defaulttheme
+  REGION(141,92,1,1)
+}
+//------------------------------------down state
+
+BITMAP btn2dntopleft {
+  TEXTURE defaulttheme
+  REGION(144,91,1,1)
+}
+BITMAP btn2dnbottomright {
+  TEXTURE defaulttheme
+  REGION(146,93,1,1)
+}
+BITMAP btn2dntopright {
+  TEXTURE defaulttheme
+  REGION(146,91,1,1)
+}
+BITMAP btn2dnbottomleft {
+  TEXTURE defaulttheme
+  REGION(144,93,1,1)
+}
+BITMAP btn2dntop {
+  TEXTURE defaulttheme
+  REGION(145,91,1,1)
+}
+BITMAP btn2dnbottom {
+  TEXTURE defaulttheme
+  REGION(145,93,1,1)
+}
+BITMAP btn2dnleft {
+  TEXTURE defaulttheme
+  REGION(144,92,1,1)
+}
+BITMAP btn2dnright {
+  TEXTURE defaulttheme
+  REGION(146,92,1,1)
+}
+BITMAP btn2dnbg {
+  TEXTURE defaulttheme
+  REGION(145,92,1,1)
+}
+//------------------------------------hover state
+
+BITMAP btn2ovtopleft {
+  TEXTURE defaulttheme
+  REGION(148,91,1,1)
+}
+BITMAP btn2ovbottomright {
+  TEXTURE defaulttheme
+  REGION(150,93,1,1)
+}
+BITMAP btn2ovtopright {
+  TEXTURE defaulttheme
+  REGION(150,91,1,1)
+}
+BITMAP btn2ovbottomleft {
+  TEXTURE defaulttheme
+  REGION(148,93,1,1)
+}
+BITMAP btn2ovtop {
+  TEXTURE defaulttheme
+  REGION(149,91,1,1)
+}
+BITMAP btn2ovbottom {
+  TEXTURE defaulttheme
+  REGION(149,93,1,1)
+}
+BITMAP btn2ovleft {
+  TEXTURE defaulttheme
+  REGION(148,92,1,1)
+}
+BITMAP btn2ovright {
+  TEXTURE defaulttheme
+  REGION(150,92,1,1)
+}
+BITMAP bt2ovbg {
+  TEXTURE defaulttheme
+  REGION(149,92,1,1)
+}
+
+
+//
+//-----------------------------------Button Frame 
+//
+BITMAP bframe_up {
+  TEXTURE defaulttheme
+  REGION(2,59,32,32)
+}
+BITMAP bframe_dn {
+  TEXTURE defaulttheme
+  REGION(36,59,32,32)
+}
+BITMAP bframe_hv {
+  TEXTURE defaulttheme
+  REGION(70,59,32,32)
+}
+BITMAP bframe_av {
+  TEXTURE defaulttheme
+  REGION(104,59,32,32)
+}
+//
+//radio btns
+//
+BITMAP radiocheck {
+  TEXTURE defaulttheme
+  REGION(423,15,16,16)
+}
+BITMAP radiouncheck {
+  TEXTURE defaulttheme
+  REGION(440,15,16,16)
+}
+//
+//checkboxes
+//
+BITMAP checkboxuncheck {
+  TEXTURE defaulttheme
+  REGION(423,33,19,19)
+}
+BITMAP checkboxcheck {
+  TEXTURE defaulttheme
+  REGION(444,33,19,19)
+}
+
+//
+// Icons
+//
+BITMAP next {
+  TEXTURE defaulttheme
+  REGION(36,40,20,18)
+}
+BITMAP event {
+  TEXTURE defaulttheme
+  REGION(57,40,20,18)
+}
+BITMAP cancel {
+  TEXTURE defaulttheme
+  REGION(78,40,20,18)
+}
+BITMAP ok {
+  TEXTURE defaulttheme
+  REGION(99,40,20,18)
+}
+
+//
+// Voice Icons
+//
+BITMAP voice {
+  TEXTURE defaulttheme
+  REGION(422,53,14,14)
+}
+BITMAP voicemuted {
+  TEXTURE defaulttheme
+  REGION(437,53,14,14)
+}
+BITMAP voicespeaking {
+  TEXTURE defaulttheme
+  REGION(452,53,14,14)
+}
+BITMAP myvoicein {
+  TEXTURE defaulttheme
+  REGION(407,68,14,14)
+}
+BITMAP myvoice {
+  TEXTURE defaulttheme
+  REGION(422,68,14,14)
+}
+BITMAP myvoicemuted {
+  TEXTURE defaulttheme
+  REGION(437,68,14,14)
+}
+BITMAP myvoicespeaking {
+  TEXTURE defaulttheme
+  REGION(452,68,14,14)
+}
+
+//
+// Start Button
+//
+BITMAP startframetopleft {
+  TEXTURE defaulttheme
+  REGION(369,460,63,17)
+}
+BITMAP startframebottomright {
+  TEXTURE defaulttheme
+  REGION(450,484,48,22)
+}
+BITMAP startframetopright {
+  TEXTURE defaulttheme
+  REGION(450,460,48,17)
+}
+BITMAP startframebottomleft {
+  TEXTURE defaulttheme
+  REGION(369,484,63,22)
+}
+BITMAP startframetop {
+  TEXTURE defaulttheme
+  REGION(433,460,1,8)
+}
+BITMAP startframebottom {
+  TEXTURE defaulttheme
+  REGION(433,498,1,8)
+}
+BITMAP startframeleft {
+  TEXTURE defaulttheme
+  REGION(369,478,17,5)
+}
+BITMAP startframeright {
+  TEXTURE defaulttheme
+  REGION(489,478,9,5)
+}
+BITMAP startframebg {
+  TEXTURE defaulttheme
+  REGION(499,458,1,1)
+}
+BITMAP btn_up {
+  TEXTURE defaulttheme
+  REGION(173,252,49,24)
+}
+BITMAP btn_dn {
+  TEXTURE defaulttheme
+  REGION(222,252,49,24)
+}
+BITMAP btn_hvr {
+  TEXTURE defaulttheme
+  REGION(271,252,49,24)
+}
+BITMAP separator {
+  TEXTURE defaulttheme
+  REGION(173,277,2,24)
+}
+//
+//------------------------------Menu icons
+//
+BITMAP menu0 {
+  TEXTURE defaulttheme
+  REGION(0,224,24,24)
+}
+BITMAP menu1 {
+  TEXTURE defaulttheme
+  REGION(24,224,24,24)
+}
+BITMAP menu2 {
+  TEXTURE defaulttheme
+  REGION(48,224,24,24)
+}
+BITMAP menu3 {
+  TEXTURE defaulttheme
+  REGION(72,224,24,24)
+}
+BITMAP menu4 {
+  TEXTURE defaulttheme
+  REGION(96,224,24,24)
+}
+BITMAP menu5 {
+  TEXTURE defaulttheme
+  REGION(120,224,24,24)
+}
+BITMAP menu6 {
+  TEXTURE defaulttheme
+  REGION(144,224,24,24)
+}
+BITMAP menu7 {
+  TEXTURE defaulttheme
+  REGION(168,224,24,24)
+}
+BITMAP menu8 {
+  TEXTURE defaulttheme
+  REGION(192,224,24,24)
+}
+BITMAP menu9 {
+  TEXTURE defaulttheme
+  REGION(216,224,24,24)
+}
+BITMAP menu10 {
+  TEXTURE defaulttheme
+  REGION(240,224,24,24)
+}
+BITMAP menu11 {
+  TEXTURE defaulttheme
+  REGION(264,224,24,24)
+}
+BITMAP menu12 {
+  TEXTURE defaulttheme
+  REGION(288,224,24,24)
+}
+BITMAP menu13 {
+  TEXTURE defaulttheme
+  REGION(312,224,24,24)
+}
+BITMAP menu14 {
+  TEXTURE defaulttheme
+  REGION(336,224,24,24)
+}
+BITMAP menu15 {
+  TEXTURE defaulttheme
+  REGION(360,224,24,24)
+}
+BITMAP menu16 {
+  TEXTURE defaulttheme
+  REGION(384,224,24,24)
+}
+BITMAP menu17 {
+  TEXTURE defaulttheme
+  REGION(408,224,24,24)
+}
+BITMAP menu18 {
+  TEXTURE defaulttheme
+  REGION(456,224,24,24)
+}
+BITMAP menu19 {
+  TEXTURE defaulttheme
+  REGION(480,224,24,24)
+}
+BITMAP menu20 {
+  TEXTURE defaulttheme
+  REGION(187,277,24,24)
+}
+BITMAP menu21 {
+  TEXTURE defaulttheme
+  REGION(214,277,24,24)
+}
+
+//
+// Backgrounds
+//
+BITMAP bg1 {
+  TEXTURE defaulttheme
+  REGION(0,93,128,128)
+}
+//
+// Round MapFrame
+//
+BITMAP mapframe {
+  TEXTURE defaulttheme
+  REGION(128,93,128,128)
+}
+BITMAP mapradar {
+  TEXTURE defaulttheme
+  REGION(380,259,128,128)
+}
+//
+//bkgd images for icons
+//
+BITMAP iconbak1 {
+  TEXTURE defaulttheme
+  REGION(384,93,64,64)
+}
+BITMAP iconbak1_glow {
+  TEXTURE defaulttheme
+  REGION(384,157,64,64)
+}
+BITMAP iconbak2 {
+  TEXTURE defaulttheme
+  REGION(448,93,64,64)
+}
+BITMAP iconbak3 {
+  TEXTURE defaulttheme
+  REGION(448,157,64,64)
+}
+//
+//Chip icons
+//
+BITMAP chip1 {
+  TEXTURE defaulttheme
+  REGION(4,275,18,18)
+}
+BITMAP chip2 {
+  TEXTURE defaulttheme
+  REGION(22,275,18,18)
+}
+BITMAP chip3 {
+  TEXTURE defaulttheme
+  REGION(40,275,18,18)
+}
+BITMAP chip4 {
+  TEXTURE defaulttheme
+  REGION(58,275,18,18)
+}
+
+//
+//Radar Zoom Buttons
+//
+BITMAP zin_up {
+  TEXTURE defaulttheme
+  REGION(305,49,9,9)
+}
+BITMAP zin_dn {
+  TEXTURE defaulttheme
+  REGION(305,59,9,9)
+}
+BITMAP zin_hvr {
+  TEXTURE defaulttheme
+  REGION(305,69,9,9)
+}
+BITMAP zout_up {
+  TEXTURE defaulttheme
+  REGION(316,49,9,9)
+}
+BITMAP zout_dn {
+  TEXTURE defaulttheme
+  REGION(316,59,9,9)
+}
+BITMAP zout_hvr {
+  TEXTURE defaulttheme
+  REGION(316,69,9,9)
+}
+
+//
+//------------------------------------------Bubble Chat
+//
+BITMAP chat_balloon {
+  TEXTURE defaulttheme
+  REGION(342,260,162,82)
+} 
+BITMAP chat_tail {
+  TEXTURE defaulttheme
+  REGION(321,259,19,30)
+}
+BITMAP chat_connect {
+  TEXTURE defaulttheme
+  REGION(326,295,9,18)
+}
+
+//
+//-----------------------------------Scroll bar buttons
+//
+BITMAP scrolluparrow {
+  TEXTURE defaulttheme
+  REGION(184,127,14,14)
+}
+BITMAP scrolluparrowon {
+  TEXTURE defaulttheme
+  REGION(184,142,14,14)
+}
+BITMAP scrolluparrowover {
+  TEXTURE defaulttheme
+  REGION(184,157,14,14)
+}
+BITMAP scrolldownarrow {
+  TEXTURE defaulttheme
+  REGION(184,172,14,14)
+}
+BITMAP scrolldownarrowon {
+  TEXTURE defaulttheme
+  REGION(184,187,14,14)	
+}
+BITMAP scrolldownarrowover {
+  TEXTURE defaulttheme
+  REGION(184,202,14,14)	
+}
+BITMAP scrollleftarrow {
+  TEXTURE defaulttheme
+  REGION(404,15,9,9)
+}
+BITMAP scrollleftarrowon {
+  TEXTURE defaulttheme
+  REGION(404,24,9,9)
+}
+BITMAP scrollleftarrowover {
+  TEXTURE defaulttheme
+  REGION(404,35,9,9)
+}
+BITMAP scrollrightarrow {
+  TEXTURE defaulttheme
+  REGION(414,15,9,9)
+}
+BITMAP scrollrightarrowon {
+  TEXTURE defaulttheme
+  REGION(414,24,9,9)
+}
+BITMAP scrollrightarrowover {
+  TEXTURE defaulttheme
+  REGION(414,35,9,9)
+}
+//
+//----------------------------------Combo-Box Arrow
+//
+//BITMAP comboboxarrow {
+//  TEXTURE defaulttheme
+//  REGION(149,127,16,17)
+//}
+BITMAP combobox_up {
+  TEXTURE defaulttheme
+  REGION(150,127,16,17)
+}
+BITMAP combobox_dn {
+  TEXTURE defaulttheme
+  REGION(150,145,16,17)
+}
+BITMAP combobox_hvr {
+  TEXTURE defaulttheme
+  REGION(150,163,16,17)
+}
+//
+//---------------------------------Combo-Box
+//
+BITMAP comboboxtopleft {
+  TEXTURE defaulttheme
+  REGION(149,181,2,2)
+}
+BITMAP comboboxtopright {
+  TEXTURE defaulttheme
+  REGION(162,181,2,2)
+}
+BITMAP comboboxbottomleft {
+  TEXTURE defaulttheme
+  REGION(149,196,2,2)
+}
+BITMAP comboboxbottomright {
+  TEXTURE defaulttheme
+  REGION(163,196,2,2)
+}
+BITMAP comboboxtop {
+  TEXTURE defaulttheme
+  REGION(151,181,1,2)
+}
+BITMAP comboboxbottom {
+  TEXTURE defaulttheme
+  REGION(151,196,1,2)
+}
+BITMAP comboboxleft {
+  TEXTURE defaulttheme
+  REGION(149,183,2,1)
+}
+BITMAP comboboxright {
+  TEXTURE defaulttheme
+  REGION(163,183,2,1)
+}
+BITMAP comboboxbg {
+  TEXTURE defaulttheme
+  REGION(151,183,1,1)
+}
+//
+//---------------------------------Tool Tip
+//
+BITMAP tooltiptopleft {
+  TEXTURE defaulttheme
+  REGION(135,201,5,5)
+}
+BITMAP tooltiptopright {
+  TEXTURE defaulttheme
+  REGION(143,201,12,5)
+}
+BITMAP tooltipbottomleft {
+  TEXTURE defaulttheme
+  REGION(135,209,5,12)
+}
+BITMAP tooltipbottomright {
+  TEXTURE defaulttheme
+  REGION(143,209,12,12)
+}
+BITMAP tooltiptop {
+  TEXTURE defaulttheme
+  REGION(141,201,1,3)
+}
+BITMAP tooltipbottom {
+  TEXTURE defaulttheme
+  REGION(141,211,1,10)
+}
+BITMAP tooltipleft {
+  TEXTURE defaulttheme
+  REGION(135,207,3,1)
+}
+BITMAP tooltipright {
+  TEXTURE defaulttheme
+  REGION(145,207,10,1)
+}
+BITMAP tooltipbg {
+  TEXTURE defaulttheme
+  REGION(141,207,1,1)
+}
+//
+//---------------------------------Mission Window Icons
+//
+BITMAP tracking_up {
+  TEXTURE defaulttheme
+  REGION(0,15,20,20)
+}
+BITMAP tracking_dn {
+  TEXTURE defaulttheme
+  REGION(20,15,20,20)
+}
+BITMAP tracking_hvr {
+  TEXTURE defaulttheme
+  REGION(20,15,20,20)
+}
+//
+//---------------------------------List Box Icons
+//
+BITMAP listbox_sort_up {
+  TEXTURE defaulttheme
+  REGION(199,198,10,8)
+}
+BITMAP listbox_sort_down {
+  TEXTURE defaulttheme
+  REGION(199,208,10,8)
+}
+//
+//--------------------------------Achievement Window Bkgd
+//
+
+BITMAP achievement_bkgd {
+   TEXTURE defaulttheme
+   REGION(201,342,310,114)
+}
